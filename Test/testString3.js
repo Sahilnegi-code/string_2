@@ -1,5 +1,7 @@
 const string3 = (date)=>{
-
+    if(typeof(date) !== "string"){
+        return ;
+    }
     const month = {
         1 : 'Jan',
         2 : 'Feb',

@@ -1,5 +1,5 @@
 const string4 = (obj) =>{
-   
+   if(typeof(obj) !== 'object') return;
     const values = Object.values(obj);
 
       let arr =   values.map((curr)=>{
